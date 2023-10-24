@@ -17,7 +17,7 @@ while True:
         #Processamento
         total=fah(n1)
         #Saída
-        print(f'\n {n1}*{n2}/{n3}+{n4} = {total}\n')
+        print(f'\n {n1} = {total}\n')
     elif op == 2 :
         print('\n Celsius \n')
         #Entrada
@@ -25,11 +25,11 @@ while True:
         #Processamento
         total2= cel(s1)
         #Saída
-        print('f\n ({s1} - {s2)\ {s3} * {s4}')
+        print(f'f\n {s1} = {total2}\n')
     elif op == 3:
         #Sair do sistema
         print('Bom trabalho!')
     break
 
-    else:
+else:
         print(f'\n opção {op} incorreta\n')
